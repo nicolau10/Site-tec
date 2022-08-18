@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+:root{
+    --fonte1:'EB Garamond', serif;
+    --fonte2:'Bebas Neue', cursive;
+    --fonte3: 'Work Sans', sans-serif;
+    --fonte4:Arial, Helvetica, sans-serif;
+    --fonte5:'Raleway', sans-serif;
+    --fonte6:'Dancing Script', cursive;;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(126, 126, 126);
+}
+header{
+    color: white;
+    font-family: var(--fonte5);
+    font-size: 2.5em;
+    height: 30vh;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,118,27,1) 100%, rgba(0,212,255,1) 100%);
+}
+header>p{
+    font-size: 25px;
+    font-family: var(--fonte6);
+    text-decoration: none;
+    padding-left: 300px;
+}
+
+nav{
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,118,27,1) 100%, rgba(0,212,255,1) 100%);
+}
+nav>a{
+    color: white;
+    background-color: black;
+    border: 10px solid black;
+    border-radius: 4px;
+    margin: 30px;
+    text-decoration: none;
+}
+nav>a:hover{
+    border-top-right-radius: 10px;
+}
+#format{
+    height: 50vh;
+    padding: 30px;
+    
+    background-attachment: fixed;
+
+}
+#format> h1{
+    font-family: var(--fonte3);
+    font-size: 3em;    
+}
+
+#format>p{
+    
+    padding: 30px;
+    line-height: 40px;
+    font-family: var(--fonte4);
+    font-size: 1.5em;
+}
+#format> h1:hover{
+    display: block;
+}
+#format>button{
+    color: rgb(12, 12, 12);
+    position: absolute;
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+    left: 200px;
+}
+
+#format>button:hover{
+    background-color: aqua;
+}
+#para{
+    background-color: rgb(13, 57, 95);
+    height: 20vh;
+    background: transparent;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.219);
+}
+.software{
+    color: white;
+    background-color: black;
+    background-image: url('imagem/automacao.jpg');
+    background-size: cover;
+}
+.software>p{
+    font-family: var(--fonte4);
+}
+.telecom{
+    color: black;
+    background-image: url('imagem/14622.jpg');
+    background-size: cover;
+}
+.computa{
+    color: white;
+    background-color: white;
+    background-image: url('imagem/ciencia.jpg');
+    background-size: cover;
+}
+.estrumenta{
+    background-image: url('imagem/enhe.jpg');
+    background-size: cover;
+    
+}
+.automa{
+    color: white;
+    background-color: white;
+    background-image: url('imagem/automacao.jpg');
+    background-size: cover;
+}
+footer{
+    text-align: center;
+    background-color: rgb(58, 59, 59);
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    border-radius: 10px;
+}
+#git:hover{
+    background-color: blue;
+}
+#fb:hover{
+    background-color: blue;
+}
