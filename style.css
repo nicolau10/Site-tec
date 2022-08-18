@@ -84,7 +84,7 @@ nav>a:hover{
 }
 
 #format>button:hover{
-    background-color: aqua;
+    background-color: rgb(235, 146, 30);
 }
 #para{
     background-color: rgb(13, 57, 95);
@@ -131,13 +131,11 @@ footer a{
     color: white;
     text-decoration: none;
 }
+footer a:hover{
+    color: rgb(235, 146, 30);
+    text-decoration: underline;
+}
 
 img{
     border-radius: 10px;
-}
-#git:hover{
-    background-color: blue;
-}
-#fb:hover{
-    background-color: blue;
 }
