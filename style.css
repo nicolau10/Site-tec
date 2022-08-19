@@ -3,44 +3,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 :root{
     --fonte1:'EB Garamond', serif;
     --fonte2:'Bebas Neue', cursive;
     --fonte3: 'Work Sans', sans-serif;
     --fonte4:Arial, Helvetica, sans-serif;
     --fonte5:'Raleway', sans-serif;
-    --fonte6:'Dancing Script', cursive;;
+    --fonte6:'Dancing Script', cursive;
 }
 
 *{
     margin: 0px;
     padding: 0px;
 }
-body{
+html,body{
     background-color: rgb(126, 126, 126);
+    min-height: 100vh;
 }
 header{
+    
+    font-size: 2em;
     color: white;
-    font-family: var(--fonte5);
-    font-size: 2.5em;
-    height: 30vh;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,118,27,1) 100%, rgba(0,212,255,1) 100%);
 }
+header h1{
+    padding: 10px;
+    font-variant: small-caps;
+    font-style: italic;
+}
 header p{
+    height: 10vh;
     font-size: 25px;
     font-family: var(--fonte6);
-    max-width: 500px;
     margin: auto;
     
 }
 
 nav{
-    
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,118,27,1) 100%, rgba(0,212,255,1) 100%);
     padding-top: 50px;
 }
+
 nav>a{
     color: white; 
     padding: 10px;
@@ -48,100 +54,108 @@ nav>a{
     font-weight: bold;
     transition-duration: .5;
 }
+
 nav>a:hover{
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     background-color: rgba(222,118,27);
     color: black;
 }
+
 #format{
     padding-top: 10vh;
     padding-bottom: 10vh;
-
-    
     background-attachment: fixed;
-
 }
-#format> h1{
-    font-family: var(--fonte3);
+
+#format > h1{
+    font-family: var(--fonte1);
     font-size: 3em; 
     padding-left: 20px;   
 }
 
-#format>p{
-    
-    
+#format > p{
     font-family: var(--fonte4);
     font-size: 25px;
-    padding: 30px;
-    
+    padding: 30px;    
 }
-#format>button{
+
+#format > button{
     color: rgb(12, 12, 12);
     position: absolute;
     height: 35px;
     width: 90px;
     border-radius: 10px;
     border: 1px solid black;
-    
     left: 200px;
 }
 
-#format>button:hover{
+#format > button:hover{
     background-color: rgb(235, 146, 30);
 }
+
 #para{
     font-size: 0.5;
-    height: 20vh;
     margin: 15px 0px;
     line-height: 1em;
     text-indent: 30px;
-    background: transparent;
-    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.219);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.137);
 }
+
 .software{
     color: white;
     background-color: black;
     background-image: url('imagem/automacao.jpg');
     background-size: cover;
 }
-.software>p{
+
+.software > p{
     font-family: var(--fonte4);
 }
+
 .telecom{
     color: black;
     background-image: url('imagem/14622.jpg');
     background-size: cover;
 }
+
 .computa{
     color: white;
     background-color: white;
     background-image: url('imagem/ciencia.jpg');
     background-size: cover;
 }
+
 .estrumenta{
     background-image: url('imagem/enhe.jpg');
     background-size: cover;
     
 }
+
 .automa{
     color: white;
     background-color: white;
     background-image: url('imagem/automacao.jpg');
     background-size: cover;
 }
+
 footer{
     background: transparent;
     color: white;
     text-align: center;
     background-color: rgb(58, 59, 59);
 }
+
 footer a{
     color: white;
     text-decoration: none;
 }
+
 footer a:hover{
     color: rgb(235, 146, 30);
     text-decoration: underline;
 }
+
 img{
     border-radius: 10px;
 }
