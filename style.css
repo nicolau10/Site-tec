@@ -96,6 +96,8 @@ nav>a:hover{
     background-color: rgb(13, 57, 95);
     font-size: 0.5;
     height: 20vh;
+    margin: 15px 0px;
+    line-height: 1em;
     max-width:max-content ;
     background: transparent;
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.219);
