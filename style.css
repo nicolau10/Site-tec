@@ -62,7 +62,8 @@ nav>a:hover{
 }
 #format> h1{
     font-family: var(--fonte3);
-    font-size: 3em;    
+    font-size: 3em; 
+    padding: 20px;   
 }
 
 #format>p{
@@ -70,7 +71,6 @@ nav>a:hover{
     
     font-family: var(--fonte4);
     font-size: 25px;
-    max-width: 600px;
     padding: 30px;
     
 }
