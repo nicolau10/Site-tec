@@ -53,8 +53,8 @@ nav>a:hover{
     color: black;
 }
 #format{
-    height: 50vh;
-    padding: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 
     
     background-attachment: fixed;
