@@ -76,7 +76,8 @@ nav>a:hover{
     margin: auto;
 }
 #format> h1:hover{
-    background-color: rgba(222,118,27); ;
+    background-color: rgba(222,118,27); 
+    background: transparent;
 }
 #format>button{
     color: rgb(12, 12, 12);
@@ -98,7 +99,6 @@ nav>a:hover{
     height: 20vh;
     margin: 15px 0px;
     line-height: 1em;
-    max-width:max-content ;
     background: transparent;
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.219);
 }
