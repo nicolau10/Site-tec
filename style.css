@@ -91,6 +91,7 @@ nav>a:hover{
 #para{
     background-color: rgb(13, 57, 95);
     height: 20vh;
+    max-width: 600px;
     background: transparent;
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.219);
 }
