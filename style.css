@@ -63,7 +63,7 @@ nav>a:hover{
 #format> h1{
     font-family: var(--fonte3);
     font-size: 3em; 
-    padding: 20px;   
+    padding-left: 20px;   
 }
 
 #format>p{
